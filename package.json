@@ -1,0 +1,62 @@
+{
+  "name": "YoApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-ios":"node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js --platform ios --dev false --bundle-output ./ios/build/Build/main.jsbundle --assets-dest ./ios/build/Build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apisauce": "^0.14.2",
+    "format-json": "^1.0.3",
+    "identity-obj-proxy": "^3.0.0",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.4",
+    "mockjs": "^1.0.0",
+    "prop-types": "^15.6.0",
+    "query-string": "^4.2.3",
+    "querystringify": "^1.0.0",
+    "ramda": "^0.25.0",
+    "react": "^16.2.0",
+    "react-addons-update": "^15.2.0",
+    "react-native": "^0.52.0",
+    "react-native-animatable": "^1.2.4",
+    "react-native-audio": "^3.2.2",
+    "react-native-button": "^1.7.1",
+    "react-native-cli": "^1.0.0",
+    "react-native-config": "^0.10.0",
+    "react-native-i18n": "^1.0.0",
+    "react-native-image-picker": "^0.22.12",
+    "react-native-navigation": "^1.1.397",
+    "react-native-navigation-redux-helpers": "^0.5.0",
+    "react-native-progress": "^3.2.0",
+    "react-native-sk-countdown": "^1.0.1",
+    "react-native-sound": "^0.9.1",
+    "react-native-swiper": "^1.5.2",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-video": "^2.0.0",
+    "react-navigation": "^1.4.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-actions": "^0.13.0",
+    "redux-immutable": "^3.0.8",
+    "redux-logger": "^2.7.4",
+    "redux-persist": "^5.4.0",
+    "redux-promise": "^0.5.3",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.0.1",
+    "reduxsauce": "^0.7.0",
+    "seamless-immutable": "^7.1.3",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "^16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
