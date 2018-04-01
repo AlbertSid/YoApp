@@ -21,7 +21,6 @@ var countDown = require('./countDown')
 var CountDownText = createReactClass({})
 
 // import PropTypes from 'prop-types';
-// test
  *
  *
  */
